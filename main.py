@@ -1,6 +1,7 @@
 from flask import Flask
-from distance import get_store_locations, get_address_and_distances
+from locations import get_locations, get_address_and_distances
 from dotenv import load_dotenv
+from traffic import get_busyness
 
 app = Flask(__name__)
 
@@ -11,12 +12,15 @@ def main():
 
     user_geo_coord = ['30.386163', '-82.288778']    # lat, long
     try:
-        # store_geo_coords, store_addresses = get_store_locations(user_geo_coord)
-        store_geo_coords = get_store_locations(user_geo_coord)
+        store_infos = get_locations(user_geo_coord)
     except Exception as ex:
         return str(ex)
 
-    store_addresses, store_distances = get_address_and_distances(user_geo_coord, store_geo_coords)
+    store_infos = get_address_and_distances(store_infos, user_geo_coord)
+
+    store_infos = get_busyness(store_infos)
+
+    # execute cost function
 
     return 'Hello'
 
