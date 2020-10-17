@@ -24,14 +24,13 @@ def main():
     store_infos = get_address_and_distances(store_infos, user_geo_coord)
 
     store_infos = get_busyness(store_infos)
-
-    # store_infos = get_availabilities_and_prices(store_infos, items)
-
-    # print(store_infos)
-
+    print(store_infos)
+    store_infos = get_availabilities_and_prices(store_infos, items)
+    print(store_infos)
     # execute cost function
-    # optimal_store = get_cost(store_infos)
-    return 'Hello'
+    optimal_store = get_cost(store_infos)
+    print(optimal_store)
+    return optimal_store
 
 
 if __name__ == '__main__':

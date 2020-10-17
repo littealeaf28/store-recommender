@@ -67,5 +67,5 @@ def get_address_and_distances(store_infos, user_geo_coord):
 
     store_infos = list(map(add_address, store_infos, store_addresses))
     store_infos = list(map(add_distance, store_infos, distance_responses['rows'][0]['elements']))
-
     return store_infos
+
