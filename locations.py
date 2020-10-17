@@ -43,7 +43,7 @@ def add_address(store_info, address):
 
 
 def add_distance(store_info, distance_response):
-    store_info['distance'] = distance_response['distance']['text']
+    store_info['distance'] = distance_response['distance']['value']
     return store_info
 
 
@@ -59,7 +59,8 @@ def get_address_and_distances(store_infos, user_geo_coord):
         destination_str = destination_str + f'{lat},{long}|'
     destination_str = destination_str[:-1]
 
-    distance_url = f'https://maps.googleapis.com/maps/api/distancematrix/json?unit=imperial&origins={lat},{long}' \
+    # TODO: Messed up distances; fix later
+    distance_url = f'https://maps.googleapis.com/maps/api/distancematrix/json?units=imperial&origins={lat},{long}' \
                    f'&destinations={destination_str}&key={google_api_key}'
     distance_responses = requests.get(distance_url).json()
 

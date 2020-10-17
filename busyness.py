@@ -65,6 +65,6 @@ def get_busyness(store_infos):
     store_infos = list(map(add_busyness, store_infos))
     # store_infos[0] = get_prev_busyness(store_infos[0])
 
-    store_infos = filter(lambda store_info: store_info is not None, store_infos)
+    store_infos = list(filter(lambda store_info: store_info is not None, store_infos))
 
     return store_infos
