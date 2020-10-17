@@ -1,12 +1,15 @@
 from item_finder import cost_calculate
 
+
 def add_availability(store_info, availability):
     store_info['availability'] = availability
     return store_info
 
+
 def add_cost(store_info, cost):
     store_info['cost'] = cost
     return store_info
+
 
 def get_availabilities_and_prices(store_infos, shopping_list):
     availabilities = []
