@@ -3,6 +3,7 @@ from locations import get_locations, get_address_and_distances
 from dotenv import load_dotenv
 from traffic import get_busyness
 from cost import get_cost
+from prices import get_availabilities_and_prices
 
 app = Flask(__name__)
 
@@ -24,7 +25,7 @@ def main():
 
     # store_infos = get_busyness(store_infos)
 
-    # store_infos = get_availability_and_costs(store_infos, items)
+    store_infos = get_availabilities_and_prices(store_infos, items)
     
     # execute cost function
     # optimal_store = get_cost(store_infos)
