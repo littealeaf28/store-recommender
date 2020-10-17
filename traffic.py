@@ -29,21 +29,34 @@ def add_busyness(store_info):
     return store_info
 
 
-def get_prev_busyness(store_infos):
+def get_prev_busyness(store_info):
     with open('busyness.json', 'r') as busyness_file:
         forecast_response = json.load(busyness_file)
 
     now_weekday = datetime.today().weekday()
     now_hour = datetime.now().hour
 
-    print(forecast_response['analysis'][now_weekday])
+    forecast_day = forecast_response['analysis'][now_weekday]
+    for forecast_hour in forecast_day['hour_analysis']:
+        if forecast_hour['hour'] == now_hour:
+            store_info['hour_intensity'] = forecast_hour['intensity_nr']
+            break
+
+    if store_info['hour_intensity']:
+        raise
+
+    store_info['surge_hours'] = forecast_day['surge_hours']
+    store_info['quiet_hours'] = forecast_day['quiet_hours']
+    store_info['busy_hours'] = forecast_day['busy_hours']
+
+    return store_info
 
 
 def get_busyness(store_infos):
     # store_infos = list(map(add_busyness, store_infos))
 
     # for store_info in store_infos:
-    get_prev_busyness()
+    store_infos[0] = get_prev_busyness(store_infos[0])
 
     for store_info in store_infos:
         print(store_info)

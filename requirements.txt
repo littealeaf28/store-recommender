@@ -1,9 +1,9 @@
 brotlipy==0.7.0
 certifi==2020.6.20
-cffi 
+cffi @ file:///C:/ci/cffi_1600699246375/work
 chardet==3.0.4
 click==7.1.2
-cryptography 
+cryptography
 Flask==1.1.2
 idna
 itsdangerous==1.1.0
@@ -14,6 +14,7 @@ pyOpenSSL
 PySocks==1.7.1
 python-dotenv==0.14.0
 requests
+selenium==3.141.0
 six==1.15.0
 urllib3
 Werkzeug==1.0.1
