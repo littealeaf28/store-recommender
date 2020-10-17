@@ -2,6 +2,7 @@ from flask import Flask
 from locations import get_locations, get_address_and_distances
 from dotenv import load_dotenv
 from traffic import get_busyness
+from cost import get_cost
 
 app = Flask(__name__)
 
@@ -18,10 +19,10 @@ def main():
 
     store_infos = get_address_and_distances(store_infos, user_geo_coord)
 
-    store_infos = get_busyness(store_infos)
-
+    #store_infos = get_busyness(store_infos)
+    
     # execute cost function
-
+    optimal_store = get_cost(store_infos)
     return 'Hello'
 
 
