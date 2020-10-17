@@ -1,13 +1,13 @@
 import math
 import time
 
+from selenium import webdriver
 from selenium.common.exceptions import TimeoutException
 from selenium.webdriver.common.by import By
 from selenium.webdriver.firefox.options import Options
 from selenium.webdriver.support import expected_conditions as ec
 from selenium.webdriver.support.wait import WebDriverWait
 from webdriver_manager.firefox import GeckoDriverManager
-from seleniumrequests import Firefox
 
 
 def cost_calculate(store, shopping_list):
@@ -30,10 +30,9 @@ def item_cost(store, item_code):
     costs = []
     settings = Options()
     settings.headless = True
-    with Firefox(executable_path=GeckoDriverManager().install(), options=settings) as driver:
+    with webdriver.Firefox(executable_path=GeckoDriverManager().install(), options=settings) as driver:
         index = 1
         for sku in to_search_through:
-            # Code snippet from "Unofficial Brickseek API"
             driver.get("https://brickseek.com/walmart-inventory-checker/")
             try:
                 WebDriverWait(driver, 2).until(ec.presence_of_element_located(
@@ -78,7 +77,7 @@ def item_cost(store, item_code):
 def get_SKUs(item_code):
     settings = Options()
     settings.headless = True
-    with Firefox(executable_path=GeckoDriverManager().install(), options=settings) as driver:
+    with webdriver.Firefox(executable_path=GeckoDriverManager().install(), options=settings) as driver:
         driver.get("https://brickseek.com/walmart-inventory-checker/")
         driver.find_element_by_css_selector("span.inventory-checker-form__launch-sku-finder.js-link").click()
         driver.find_element_by_id("sku-finder-form-query").send_keys(code_to_item(item_code))
@@ -115,7 +114,6 @@ def code_to_item(item_code):
     if item_code == "frozen dinner":
         return "frozen dinner"
     if item_code == "snacks":
-        # Maybe also do other snack types?
         return "cheeto"
     if item_code == "detergent":
         return "detergent"
