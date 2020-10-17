@@ -1,15 +1,19 @@
 from flask import Flask
-from calculate_distance import get_store_locations
+from distance import get_store_locations
+from dotenv import load_dotenv
 
 app = Flask(__name__)
 
 
 @app.route('/')
 def main():
-    longit='30.386163'
-    lat='-82.288778'
-    return get_store_locations(longit,lat)
+    load_dotenv()
+
+    lat = '30.386163'
+    long = '-82.288778'
+    return get_store_locations(lat, long)
 
 
 if __name__ == '__main__':
     app.run()
+
