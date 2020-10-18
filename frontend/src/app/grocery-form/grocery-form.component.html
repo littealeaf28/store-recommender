@@ -1,1 +1,16 @@
-<p>grocery-form works!</p>
+<div *ngIf="err.isErr">
+  {{err.message}}
+</div>
+<!--<form [formGroup] = 'groceryForm'>
+
+</form>-->
+<div>
+  Please enter your grocery list as a list of comma separated values
+</div>
+<form class="example-form" (ngSubmit)="onSubmit()">
+  <mat-form-field class="example-full-width">
+    <mat-label>grocery list</mat-label>
+    <textarea matInput placeholder="milk,bread,detergent" [(ngModel)]="groceryList" name="groceryList"></textarea>
+  </mat-form-field>
+  <button type='submit'>Submit</button>
+</form>

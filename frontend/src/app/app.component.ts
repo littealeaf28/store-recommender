@@ -5,7 +5,6 @@ import { Validators} from '@angular/forms';
 
 import { from } from 'rxjs'
 import {Loader} from 'google-maps';
-import dotenv
 
 @Component({
   selector: 'app-root',
