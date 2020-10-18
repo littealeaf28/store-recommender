@@ -6,7 +6,7 @@ def get_cost(store_infos):
         return store_infos[0]
     cost(store_infos)
     cost_sorted_stores = sorted(store_infos, key=lambda x: x['cost'], reverse=False)
-    return cost_sorted_stores[0]
+    return cost_sorted_stores
 
 
 def cost(store_info):

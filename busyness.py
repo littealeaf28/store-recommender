@@ -21,7 +21,8 @@ def add_busyness(store_info):
     #     json.dump(forecast_response, busyness_file, indent=4, sort_keys=True)
 
     now_weekday = datetime.today().weekday()
-    now_hour = datetime.now().hour
+    # now_hour = datetime.now().hour
+    now_hour = 12
 
     forecast_day = forecast_response['analysis'][now_weekday]
     for forecast_hour in forecast_day['hour_analysis']:

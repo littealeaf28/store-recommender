@@ -17,24 +17,23 @@ def main():
 
     store_infos = get_locations(user_geo_coord)
     if len(store_infos) == 0:
-        return {}
+        return {'err': 'No stores within max distance'}
 
     store_infos = get_address_and_distances(store_infos, user_geo_coord)
-    store_infos = store_infos[:6]
     if len(store_infos) == 0:
-        return {}
+        return {'err': 'No stores within max distance'}  # Removes stores at unnamed addresses
+    store_infos = store_infos[:6]  # places cap on number of stores to find busyness of (API costs money)
 
     store_infos = get_busyness(store_infos)
-    store_infos = store_infos[:4]
     if len(store_infos) == 0:
-        return {}
+        return {'err': 'Stores in the area have all closed down'}
+    store_infos = store_infos[:4]   # places cap on number of stores to execute item_find functionality on
 
-    # execute cost function
-    optimal_store = get_cost(store_infos)
-    # print(optimal_store)
-    return optimal_store
+    # execute item_finder functionality
+
+    cost_sorted_stores = get_cost(store_infos)
+    return {'cost_sorted_stores': cost_sorted_stores}
 
 
 if __name__ == '__main__':
     app.run()
-
