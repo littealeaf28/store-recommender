@@ -16,26 +16,20 @@ def cost(store_info):
     # Distance
     # Hour_intensity - -2 is not much traffic, 2 is a lot of traffic
 
-    theta = np.array([5, 2, 0.1, 0.1])
-    availability_standardized = least_square(store_info, "availability")
-    prices_standardized = least_square(store_info, "prices")
+    theta = np.array([0.1, 0.1])
     distance_standardized = least_square(store_info, "distance")
     hour_intensity_standardized = least_square(store_info, "hour_intensity")
     for n in range(len(store_info)):
-        X = np.array([availability_standardized[n], prices_standardized[n],
-                  distance_standardized[n], hour_intensity_standardized[n]])
+        X = np.array([distance_standardized[n], hour_intensity_standardized[n]])
         cost = np.dot(theta, X)
         store_info[n]['cost'] = cost
     return store_info
 
 
 def least_square(store_info, search_term):
-    print(search_term)
     vector = np.array([float(store[search_term]) for store in store_info])
-    print(vector)
     mean = sum(vector) / len(vector)
     width = max(vector) - min(vector)
-    print(width)
     if width == 0:
         zero_array = []
         for n in range(4):
