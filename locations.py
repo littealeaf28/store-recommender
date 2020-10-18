@@ -23,50 +23,34 @@ def get_locations(user_geo_coord):
 
     lat, long = user_geo_coord
 
-    max_dist = '20000'
+    max_dist = '10000'
     keyword = 'Walmart'
     search_type = 'department_store'
     stores_url = f'https://maps.googleapis.com/maps/api/place/nearbysearch/json?location={lat},{long}' \
                  f'&radius={max_dist}&type={search_type}&keyword={keyword}&key={google_api_key}'
     store_responses = requests.get(stores_url).json()['results']
 
-    if len(store_responses) == 0:
-        raise Exception('No stores within the designated max radius')
-
     store_infos = list(map(get_store_info, store_responses))
     return store_infos
-
-
-def add_address(store_info, address):
-    store_info['address'] = address
-    return store_info
-
-
-def add_distance(store_info, distance_response):
-    store_info['distance'] = distance_response['distance']['value']
-    return store_info
 
 
 def get_address_and_distances(store_infos, user_geo_coord):
     google_api_key = os.getenv('GOOGLE_API_KEY')
 
-    lat, long = user_geo_coord
+    user_lat, store_long = user_geo_coord
 
-    destination_str = ''
-    for store_geo_coord in store_infos:
-        lat = store_geo_coord['geo_coord']['lat']
-        long = store_geo_coord['geo_coord']['lng']
-        destination_str = destination_str + f'{lat},{long}|'
-    destination_str = destination_str[:-1]
+    for store_info in store_infos:
+        store_lat = store_info['geo_coord']['lat']
+        store_long = store_info['geo_coord']['lng']
+        distance_url = f'https://maps.googleapis.com/maps/api/distancematrix/json?units=imperial&origins={user_lat},{store_long}' \
+                       f'&destinations={store_lat},{store_long}&key={google_api_key}'
+        distance_response = requests.get(distance_url).json()
+        store_info['address'] = distance_response['destination_addresses'][0]
+        store_info['distance'] = distance_response['rows'][0]['elements'][0]['distance']['value']
 
-    # TODO: Messed up distances; fix later
-    distance_url = f'https://maps.googleapis.com/maps/api/distancematrix/json?units=imperial&origins={lat},{long}' \
-                   f'&destinations={destination_str}&key={google_api_key}'
-    distance_responses = requests.get(distance_url).json()
+    store_infos = list(filter(lambda store_info: not(store_info['address'].startswith('Unnamed Road')), store_infos))
 
-    store_addresses = distance_responses['destination_addresses']
+    store_infos = sorted(store_infos, key=lambda store_info: store_info['distance'])
 
-    store_infos = list(map(add_address, store_infos, store_addresses))
-    store_infos = list(map(add_distance, store_infos, distance_responses['rows'][0]['elements']))
     return store_infos
 
