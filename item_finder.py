@@ -62,6 +62,7 @@ def item_cost(store, item_code):
                     costs.append(float(store_costs[counter].text.replace("\n", "")[1:]))
                     break
                 counter = counter + 1
+            time.sleep(3)
     if any(availabilities):
         min_cost = math.inf
         for n in range(len(costs)):

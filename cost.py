@@ -34,9 +34,14 @@ def least_square(store_info, search_term):
     vector = np.array([float(store[search_term]) for store in store_info])
     print(vector)
     mean = sum(vector) / len(vector)
-    range = max(vector) - min(vector)
-    print(range)
-    return (vector - mean) / range
+    width = max(vector) - min(vector)
+    print(width)
+    if width == 0:
+        zero_array = []
+        for n in range(4):
+            zero_array.append(0)
+        return zero_array
+    return (vector - mean) / width
 
 
 # print(get_cost([
