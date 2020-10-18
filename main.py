@@ -1,21 +1,21 @@
-from flask import Flask
+from flask import Flask, request
+from cost import get_cost
 from locations import get_locations, get_address_and_distances
 from dotenv import load_dotenv
 from busyness import get_busyness
-from cost import get_cost
 from prices import get_availabilities_and_prices
 
 app = Flask(__name__)
 
 
-@app.route('/')
+@app.route('/', methods=['POST'])
 def main():
     load_dotenv()
 
-    # item_str = 'milk,bread,detergent'
-    # items = split(item_str, ', ')
-    items = ['milk', 'detergent']
-    user_geo_coord = ['36.160837', '-115.166805']    # lat, long
+    req_data = request.get_json()
+    items = req_data['groceries']
+    user_geo_coord = req_data['location']
+
     store_infos = get_locations(user_geo_coord)
     if len(store_infos) == 0:
         return {}
@@ -34,8 +34,9 @@ def main():
 
     # execute cost function
     optimal_store = get_cost(store_infos)
-    print(optimal_store)
+    # print(optimal_store)
     return optimal_store
+
 
 if __name__ == '__main__':
     app.run()

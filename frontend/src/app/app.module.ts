@@ -12,9 +12,13 @@ import { FormsModule } from '@angular/forms';
 import { ReactiveFormsModule } from '@angular/forms';
 import {MatInputModule} from '@angular/material/input';
 import {  HttpClientModule } from '@angular/common/http';
+import { GroceryFormComponent } from './grocery-form/grocery-form.component';
+import { StoreCardComponent } from './store-card/store-card.component';
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    GroceryFormComponent,
+    StoreCardComponent
   ],
   imports: [
     BrowserModule,

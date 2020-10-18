@@ -12,6 +12,8 @@
 # below:
 .git
 .gitignore
+store-recommender-frontend
+
 
 # Python pycache:
 __pycache__/
