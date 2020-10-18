@@ -1,5 +1,7 @@
-runtime: custom
-env: flex
+#runtime: custom
+#env: flex
+
+runtime: python38
 
 handlers:
   - url: /

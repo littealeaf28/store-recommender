@@ -21,8 +21,6 @@ __pycache__/
 /setup.cfg
 
 frontend
-react-frontend
-build
 busyness.json
 /.idea
 /venv

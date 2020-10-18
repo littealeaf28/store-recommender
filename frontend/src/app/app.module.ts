@@ -14,11 +14,13 @@ import {MatInputModule} from '@angular/material/input';
 import {  HttpClientModule } from '@angular/common/http';
 import { GroceryFormComponent } from './grocery-form/grocery-form.component';
 import { StoreCardComponent } from './store-card/store-card.component';
+import { StoreMapComponent } from './store-map/store-map.component';
 @NgModule({
   declarations: [
     AppComponent,
     GroceryFormComponent,
-    StoreCardComponent
+    StoreCardComponent,
+    StoreMapComponent
   ],
   imports: [
     BrowserModule,
