@@ -1,13 +1,13 @@
 import math
 import time
 
+from selenium import webdriver
 from selenium.common.exceptions import TimeoutException
 from selenium.webdriver.common.by import By
 from selenium.webdriver.firefox.options import Options
 from selenium.webdriver.support import expected_conditions as ec
 from selenium.webdriver.support.wait import WebDriverWait
 from webdriver_manager.firefox import GeckoDriverManager
-from seleniumrequests import Firefox
 
 
 def cost_calculate(store, shopping_list):
@@ -30,10 +30,9 @@ def item_cost(store, item_code):
     costs = []
     settings = Options()
     settings.headless = True
-    with Firefox(executable_path=GeckoDriverManager().install(), options=settings) as driver:
+    with webdriver.Firefox(executable_path=GeckoDriverManager().install(), options=settings) as driver:
         index = 1
-        for sku in to_search_through:
-            # Code snippet from "Unofficial Brickseek API"
+        for sku in to_search_through[0:2]:
             driver.get("https://brickseek.com/walmart-inventory-checker/")
             try:
                 WebDriverWait(driver, 2).until(ec.presence_of_element_located(
@@ -53,7 +52,6 @@ def item_cost(store, item_code):
             except TimeoutException:
                 continue
             store_addresses = driver.find_elements_by_css_selector("address.address")
-            print("Num. of stores: " + str(len(store_addresses)))
             store_availabilities = driver.find_elements_by_css_selector("span.availability-status-indicator__text")
             store_costs = driver.find_elements_by_css_selector("span.price-formatted.price-formatted--style-display")
             counter = 0
@@ -62,7 +60,6 @@ def item_cost(store, item_code):
                 if address_elements[0].split()[0].strip() == store_building_no and address_elements[1].split()[2].strip() == store_zip_code:
                     availabilities.append(text_to_availability(store_availabilities[counter]))
                     costs.append(float(store_costs[counter].text.replace("\n", "")[1:]))
-                    print("Success!")
                     break
                 counter = counter + 1
     if any(availabilities):
@@ -71,15 +68,21 @@ def item_cost(store, item_code):
             if availabilities[n]:
                 min_cost = min_cost if min_cost < costs[n] else costs[n]
         return [True, min_cost]
-    return [False, min(costs)]
+    return [False, 0]
 
 
 # Takes food code input and converts it into a list of product SKUs
 def get_SKUs(item_code):
     settings = Options()
     settings.headless = True
-    with Firefox(executable_path=GeckoDriverManager().install(), options=settings) as driver:
+    with webdriver.Firefox(executable_path=GeckoDriverManager().install(), options=settings) as driver:
         driver.get("https://brickseek.com/walmart-inventory-checker/")
+        try:
+            WebDriverWait(driver, 2).until(ec.presence_of_element_located(
+                (By.CSS_SELECTOR, "span.inventory-checker-form__launch-sku-finder.js-link")
+            ))
+        except TimeoutException:
+            return []
         driver.find_element_by_css_selector("span.inventory-checker-form__launch-sku-finder.js-link").click()
         driver.find_element_by_id("sku-finder-form-query").send_keys(code_to_item(item_code))
 
@@ -89,7 +92,6 @@ def get_SKUs(item_code):
         ))
 
         searchables = driver.find_elements_by_class_name("sku-finder-form-results__name")
-        time.sleep(3)
         skus = []
         for item in searchables:
             skus.append(item.text.split('\n')[1].split()[1])
@@ -115,7 +117,6 @@ def code_to_item(item_code):
     if item_code == "frozen dinner":
         return "frozen dinner"
     if item_code == "snacks":
-        # Maybe also do other snack types?
         return "cheeto"
     if item_code == "detergent":
         return "detergent"
@@ -123,3 +124,4 @@ def code_to_item(item_code):
         return "great value eggs 12 count"
     if item_code == "bread":
         return "great value bread"
+    return item_code
