@@ -1,0 +1,12 @@
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  button {
+    background: mediumpurple;
+    width: 160px;
+    margin-right: 0;
+    margin-left: auto;
+  }
+}

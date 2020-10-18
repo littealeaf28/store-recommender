@@ -1,4 +1,12 @@
-#map {
-  height: 50%;
-  width: 100%;
+header {
+  text-align: center;
+
+  h1 {
+    color: mediumpurple;
+  }
+}
+
+body {
+  max-width: 90%;
+  margin: auto;
 }

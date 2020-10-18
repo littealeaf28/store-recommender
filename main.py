@@ -13,7 +13,7 @@ def main():
 
     req_data = request.get_json()
     items = req_data['groceries']
-    user_geo_coord = req_data['location']
+    user_geo_coord = list(req_data['location'].values())
 
     store_infos = get_locations(user_geo_coord)
     if len(store_infos) == 0:
