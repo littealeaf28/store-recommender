@@ -4,10 +4,10 @@ import time
 from selenium import webdriver
 from selenium.common.exceptions import TimeoutException
 from selenium.webdriver.common.by import By
-from selenium.webdriver.firefox.options import Options
+from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.support import expected_conditions as ec
 from selenium.webdriver.support.wait import WebDriverWait
-from webdriver_manager.firefox import GeckoDriverManager
+from webdriver_manager.chrome import ChromeDriverManager
 
 
 def cost_calculate(store, shopping_list):
@@ -30,7 +30,7 @@ def item_cost(store, item_code):
     costs = []
     settings = Options()
     settings.headless = True
-    with webdriver.Firefox(executable_path=GeckoDriverManager().install(), options=settings) as driver:
+    with webdriver.Chrome(executable_path=ChromeDriverManager().install(), options=settings) as driver:
         index = 1
         for sku in to_search_through[0:2]:
             driver.get("https://brickseek.com/walmart-inventory-checker/")
@@ -76,7 +76,7 @@ def item_cost(store, item_code):
 def get_SKUs(item_code):
     settings = Options()
     settings.headless = True
-    with webdriver.Firefox(executable_path=GeckoDriverManager().install(), options=settings) as driver:
+    with webdriver.Chrome(executable_path=ChromeDriverManager().install(), options=settings) as driver:
         driver.get("https://brickseek.com/walmart-inventory-checker/")
         try:
             WebDriverWait(driver, 2).until(ec.presence_of_element_located(

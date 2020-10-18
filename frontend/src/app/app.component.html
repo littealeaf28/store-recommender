@@ -3,7 +3,7 @@
     {{err.message}}
   </div>
   <!--<form [formGroup] = 'groceryForm'>
-    
+
   </form>-->
   <div>
     Please enter your grocery list as a list of comma separated values
@@ -15,4 +15,21 @@
     </mat-form-field>
     <button type='submit'>Submit</button>
   </form>
+  <div id="map"></div>
 </div>
+<script>
+  function initMap() {
+    const uluru = { lat: -25.344, lng: 131.036 };
+        // The map, centered at Uluru
+      const map = new google.maps.Map(document.getElementById("map"), {
+        zoom: 4,
+        center: uluru,
+      });
+        // The marker, positioned at Uluru
+      const marker = new google.maps.Marker({
+        position: uluru,
+        map: map,
+      });
+    }
+</script>
+
