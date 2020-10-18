@@ -124,3 +124,4 @@ def code_to_item(item_code):
         return "great value eggs 12 count"
     if item_code == "bread":
         return "great value bread"
+    return item_code
