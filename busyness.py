@@ -14,7 +14,7 @@ def add_busyness(store_info):
         'venue_address': store_info['address']
     }
     forecast_response = requests.post(best_time_url, params=params).json()
-
+    print(forecast_response)
     if forecast_response['status'] == 'error':
         return None
 

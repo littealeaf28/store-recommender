@@ -846,3 +846,586 @@ JavaScript warning: https://brickseek.com/wp-content/themes/brickseek/js/vendor/
 JavaScript error: https://a.pub.network/brickseek-com/pubfig.min.js, line 1: SyntaxError: JSON.parse: unexpected end of data at line 1 column 1 of the JSON data
 JavaScript warning: https://brickseek.com/wp-content/themes/brickseek/js/vendor/quagga.min.js?ver=3.2.7, line 0: Successfully compiled asm.js code (total compilation time 0ms)
 1602973578317	Marionette	INFO	Stopped listening on port 50083
+1602977640812	geckodriver	INFO	Listening on 127.0.0.1:50472
+1602977641825	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/var/folders/6y/xg176hp968n55tg19ltj5tjh0000gn/T/rust_mozprofile9tAwUC"
+*** You are running in headless mode.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1602977643359	Marionette	INFO	Listening on port 50484
+1602977643380	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://brickseek.com/wp-content/themes/brickseek/js/vendor/quagga.min.js?ver=3.2.7, line 0: Successfully compiled asm.js code (total compilation time 1ms)
+1602977647307	Marionette	INFO	Stopped listening on port 50484
+1602977648055	geckodriver	INFO	Listening on 127.0.0.1:50580
+1602977649060	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/var/folders/6y/xg176hp968n55tg19ltj5tjh0000gn/T/rust_mozprofile16gQjU"
+*** You are running in headless mode.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1602977650485	Marionette	INFO	Listening on port 50589
+1602977650496	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://brickseek.com/wp-content/themes/brickseek/js/vendor/quagga.min.js?ver=3.2.7, line 0: Successfully compiled asm.js code (total compilation time 1ms)
+JavaScript warning: https://brickseek.com/wp-content/themes/brickseek/js/vendor/quagga.min.js?ver=3.2.7, line 0: Successfully compiled asm.js code (total compilation time 0ms)
+JavaScript error: , line 0: uncaught exception: undefined
+JavaScript warning: https://brickseek.com/wp-content/themes/brickseek/js/vendor/quagga.min.js?ver=3.2.7, line 0: Successfully compiled asm.js code (total compilation time 0ms)
+JavaScript error: https://tpc.googlesyndication.com/pagead/js/r20201014/r20110914/client/qs_click_protection_fy2019.js, line 14: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://a.pub.network/brickseek-com/pubfig.min.js, line 1: SyntaxError: JSON.parse: unexpected end of data at line 1 column 1 of the JSON data
+JavaScript warning: https://brickseek.com/wp-content/themes/brickseek/js/vendor/quagga.min.js?ver=3.2.7, line 0: Successfully compiled asm.js code (total compilation time 0ms)
+1602977671546	Marionette	INFO	Stopped listening on port 50589
+1602977673579	geckodriver	INFO	Listening on 127.0.0.1:50798
+1602977674583	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/var/folders/6y/xg176hp968n55tg19ltj5tjh0000gn/T/rust_mozprofileONPZcr"
+*** You are running in headless mode.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1602977676071	Marionette	INFO	Listening on port 50809
+1602977676134	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://brickseek.com/wp-content/themes/brickseek/js/vendor/quagga.min.js?ver=3.2.7, line 0: Successfully compiled asm.js code (total compilation time 1ms)
+1602977679738	Marionette	INFO	Stopped listening on port 50809
+1602977680682	geckodriver	INFO	Listening on 127.0.0.1:50895
+1602977680891	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/var/folders/6y/xg176hp968n55tg19ltj5tjh0000gn/T/rust_mozprofileQrS7R1"
+*** You are running in headless mode.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1602977682351	Marionette	INFO	Listening on port 50904
+1602977682431	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://brickseek.com/wp-content/themes/brickseek/js/vendor/quagga.min.js?ver=3.2.7, line 0: Successfully compiled asm.js code (total compilation time 1ms)
+JavaScript error: https://a.pub.network/brickseek-com/pubfig.min.js, line 1: SyntaxError: JSON.parse: unexpected end of data at line 1 column 1 of the JSON data
+JavaScript warning: https://brickseek.com/wp-content/themes/brickseek/js/vendor/quagga.min.js?ver=3.2.7, line 0: Successfully compiled asm.js code (total compilation time 0ms)
+JavaScript warning: https://brickseek.com/wp-content/themes/brickseek/js/vendor/quagga.min.js?ver=3.2.7, line 0: Successfully compiled asm.js code (total compilation time 0ms)
+JavaScript error: https://a.pub.network/brickseek-com/pubfig.min.js, line 1: SyntaxError: JSON.parse: unexpected end of data at line 1 column 1 of the JSON data
+JavaScript warning: https://brickseek.com/wp-content/themes/brickseek/js/vendor/quagga.min.js?ver=3.2.7, line 0: Successfully compiled asm.js code (total compilation time 0ms)
+1602977695272	Marionette	INFO	Stopped listening on port 50904
+1602977695995	geckodriver	INFO	Listening on 127.0.0.1:50992
+1602977697005	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/var/folders/6y/xg176hp968n55tg19ltj5tjh0000gn/T/rust_mozprofileSZHZvh"
+*** You are running in headless mode.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1602977698492	Marionette	INFO	Listening on port 51003
+1602977698552	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://brickseek.com/wp-content/themes/brickseek/js/vendor/quagga.min.js?ver=3.2.7, line 0: Successfully compiled asm.js code (total compilation time 1ms)
+1602977701617	Marionette	INFO	Stopped listening on port 51003
+1602977702336	geckodriver	INFO	Listening on 127.0.0.1:51084
+1602977703057	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/var/folders/6y/xg176hp968n55tg19ltj5tjh0000gn/T/rust_mozprofileCMCzBU"
+*** You are running in headless mode.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1602977704562	Marionette	INFO	Listening on port 51093
+1602977704597	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://brickseek.com/wp-content/themes/brickseek/js/vendor/quagga.min.js?ver=3.2.7, line 0: Successfully compiled asm.js code (total compilation time 1ms)
+JavaScript error: https://a.pub.network/brickseek-com/pubfig.min.js, line 1: SyntaxError: JSON.parse: unexpected end of data at line 1 column 1 of the JSON data
+JavaScript warning: https://brickseek.com/wp-content/themes/brickseek/js/vendor/quagga.min.js?ver=3.2.7, line 0: Successfully compiled asm.js code (total compilation time 0ms)
+JavaScript warning: https://pagead2.googlesyndication.com/bg/36t2pzUCsky2p8StOfRDuZ2SQrRQGkwFUvrIpVyovYo.js line 1 > eval line 3556 > eval line 1 > eval, line 1: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://pagead2.googlesyndication.com/bg/36t2pzUCsky2p8StOfRDuZ2SQrRQGkwFUvrIpVyovYo.js line 1 > eval line 3556 > eval line 1 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript error: , line 0: uncaught exception: undefined
+JavaScript warning: https://brickseek.com/wp-content/themes/brickseek/js/vendor/quagga.min.js?ver=3.2.7, line 0: Successfully compiled asm.js code (total compilation time 0ms)
+JavaScript error: https://tpc.googlesyndication.com/pagead/js/r20201014/r20110914/client/qs_click_protection_fy2019.js, line 14: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://a.pub.network/brickseek-com/pubfig.min.js, line 1: SyntaxError: JSON.parse: unexpected end of data at line 1 column 1 of the JSON data
+JavaScript warning: https://brickseek.com/wp-content/themes/brickseek/js/vendor/quagga.min.js?ver=3.2.7, line 0: Successfully compiled asm.js code (total compilation time 0ms)
+1602977726285	Marionette	INFO	Stopped listening on port 51093
+1602977791659	geckodriver	INFO	Listening on 127.0.0.1:51358
+1602977792672	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/var/folders/6y/xg176hp968n55tg19ltj5tjh0000gn/T/rust_mozprofileF26yLf"
+*** You are running in headless mode.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1602977794071	Marionette	INFO	Listening on port 51369
+1602977794117	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://brickseek.com/wp-content/themes/brickseek/js/vendor/quagga.min.js?ver=3.2.7, line 0: Successfully compiled asm.js code (total compilation time 1ms)
+1602977798286	Marionette	INFO	Stopped listening on port 51369
+1602977799011	geckodriver	INFO	Listening on 127.0.0.1:51452
+1602977800023	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/var/folders/6y/xg176hp968n55tg19ltj5tjh0000gn/T/rust_mozprofile3CEUYO"
+*** You are running in headless mode.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1602977801459	Marionette	INFO	Listening on port 51461
+1602977801467	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://brickseek.com/wp-content/themes/brickseek/js/vendor/quagga.min.js?ver=3.2.7, line 0: Successfully compiled asm.js code (total compilation time 1ms)
+JavaScript warning: https://brickseek.com/wp-content/themes/brickseek/js/vendor/quagga.min.js?ver=3.2.7, line 0: Successfully compiled asm.js code (total compilation time 0ms)
+JavaScript warning: https://brickseek.com/wp-content/themes/brickseek/js/vendor/quagga.min.js?ver=3.2.7, line 0: Successfully compiled asm.js code (total compilation time 0ms)
+JavaScript error: https://a.pub.network/brickseek-com/pubfig.min.js, line 1: SyntaxError: JSON.parse: unexpected end of data at line 1 column 1 of the JSON data
+JavaScript warning: https://brickseek.com/wp-content/themes/brickseek/js/vendor/quagga.min.js?ver=3.2.7, line 0: Successfully compiled asm.js code (total compilation time 0ms)
+1602977823531	Marionette	INFO	Stopped listening on port 51461
+JavaScript error: , line 0: uncaught exception: undefined
+[Child 27697, Chrome_ChildThread] WARNING: pipe error: Socket is not connected: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 659
+1602977824383	geckodriver	INFO	Listening on 127.0.0.1:51656
+1602977825394	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/var/folders/6y/xg176hp968n55tg19ltj5tjh0000gn/T/rust_mozprofileXcS9SJ"
+*** You are running in headless mode.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1602977826746	Marionette	INFO	Listening on port 51667
+1602977826835	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://brickseek.com/wp-content/themes/brickseek/js/vendor/quagga.min.js?ver=3.2.7, line 0: Successfully compiled asm.js code (total compilation time 1ms)
+1602977829798	Marionette	INFO	Stopped listening on port 51667
+1602977830833	geckodriver	INFO	Listening on 127.0.0.1:51740
+1602977831955	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/var/folders/6y/xg176hp968n55tg19ltj5tjh0000gn/T/rust_mozprofileuY3eiJ"
+*** You are running in headless mode.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1602977833320	Marionette	INFO	Listening on port 51749
+1602977833397	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://brickseek.com/wp-content/themes/brickseek/js/vendor/quagga.min.js?ver=3.2.7, line 0: Successfully compiled asm.js code (total compilation time 1ms)
+JavaScript warning: https://brickseek.com/wp-content/themes/brickseek/js/vendor/quagga.min.js?ver=3.2.7, line 0: Successfully compiled asm.js code (total compilation time 0ms)
+JavaScript warning: https://brickseek.com/wp-content/themes/brickseek/js/vendor/quagga.min.js?ver=3.2.7, line 0: Successfully compiled asm.js code (total compilation time 0ms)
+JavaScript error: https://a.pub.network/brickseek-com/pubfig.min.js, line 1: SyntaxError: JSON.parse: unexpected end of data at line 1 column 1 of the JSON data
+1602977850719	Marionette	INFO	Stopped listening on port 51749
+1602977851519	geckodriver	INFO	Listening on 127.0.0.1:51828
+1602977852526	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/var/folders/6y/xg176hp968n55tg19ltj5tjh0000gn/T/rust_mozprofiley5C3dm"
+*** You are running in headless mode.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1602977853904	Marionette	INFO	Listening on port 51839
+1602977853964	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://brickseek.com/wp-content/themes/brickseek/js/vendor/quagga.min.js?ver=3.2.7, line 0: Successfully compiled asm.js code (total compilation time 1ms)
+1602977857791	Marionette	INFO	Stopped listening on port 51839
+1602977859539	geckodriver	INFO	Listening on 127.0.0.1:51922
+1602977860548	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/var/folders/6y/xg176hp968n55tg19ltj5tjh0000gn/T/rust_mozprofilemnR5QO"
+*** You are running in headless mode.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1602977861960	Marionette	INFO	Listening on port 51933
+1602977861989	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://brickseek.com/wp-content/themes/brickseek/js/vendor/quagga.min.js?ver=3.2.7, line 0: Successfully compiled asm.js code (total compilation time 1ms)
+JavaScript error: https://a.pub.network/brickseek-com/pubfig.min.js, line 1: SyntaxError: JSON.parse: unexpected end of data at line 1 column 1 of the JSON data
+JavaScript warning: https://brickseek.com/wp-content/themes/brickseek/js/vendor/quagga.min.js?ver=3.2.7, line 0: Successfully compiled asm.js code (total compilation time 0ms)
+JavaScript error: https://a.pub.network/brickseek-com/pubfig.min.js, line 1: SyntaxError: JSON.parse: unexpected end of data at line 1 column 1 of the JSON data
+JavaScript warning: https://brickseek.com/wp-content/themes/brickseek/js/vendor/quagga.min.js?ver=3.2.7, line 0: Successfully compiled asm.js code (total compilation time 0ms)
+JavaScript error: https://a.pub.network/brickseek-com/pubfig.min.js, line 1: SyntaxError: JSON.parse: unexpected end of data at line 1 column 1 of the JSON data
+JavaScript warning: https://brickseek.com/wp-content/themes/brickseek/js/vendor/quagga.min.js?ver=3.2.7, line 0: Successfully compiled asm.js code (total compilation time 0ms)
+1602977873576	Marionette	INFO	Stopped listening on port 51933
+1602977965479	geckodriver	INFO	Listening on 127.0.0.1:52021
+1602977966488	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/var/folders/6y/xg176hp968n55tg19ltj5tjh0000gn/T/rust_mozprofileysXSR0"
+*** You are running in headless mode.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1602977967849	Marionette	INFO	Listening on port 52032
+1602977967938	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://brickseek.com/wp-content/themes/brickseek/js/vendor/quagga.min.js?ver=3.2.7, line 0: Successfully compiled asm.js code (total compilation time 1ms)
+1602977971676	Marionette	INFO	Stopped listening on port 52032
+1602977972426	geckodriver	INFO	Listening on 127.0.0.1:52119
+1602977972914	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/var/folders/6y/xg176hp968n55tg19ltj5tjh0000gn/T/rust_mozprofileE71qaw"
+*** You are running in headless mode.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1602977974702	Marionette	INFO	Listening on port 52128
+1602977974774	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://brickseek.com/wp-content/themes/brickseek/js/vendor/quagga.min.js?ver=3.2.7, line 0: Successfully compiled asm.js code (total compilation time 1ms)
+JavaScript error: https://a.pub.network/brickseek-com/pubfig.min.js, line 1: SyntaxError: JSON.parse: unexpected end of data at line 1 column 1 of the JSON data
+JavaScript warning: https://brickseek.com/wp-content/themes/brickseek/js/vendor/quagga.min.js?ver=3.2.7, line 0: Successfully compiled asm.js code (total compilation time 0ms)
+JavaScript error: , line 0: uncaught exception: undefined
+JavaScript warning: https://brickseek.com/wp-content/themes/brickseek/js/vendor/quagga.min.js?ver=3.2.7, line 0: Successfully compiled asm.js code (total compilation time 0ms)
+JavaScript error: https://tpc.googlesyndication.com/pagead/js/r20201014/r20110914/client/qs_click_protection_fy2019.js, line 14: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://tpc.googlesyndication.com/pagead/js/r20201014/r20110914/client/qs_click_protection_fy2019.js, line 14: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://a.pub.network/brickseek-com/pubfig.min.js, line 1: SyntaxError: JSON.parse: unexpected end of data at line 1 column 1 of the JSON data
+JavaScript warning: https://brickseek.com/wp-content/themes/brickseek/js/vendor/quagga.min.js?ver=3.2.7, line 0: Successfully compiled asm.js code (total compilation time 0ms)
+1602977995938	Marionette	INFO	Stopped listening on port 52128
+1602977997406	geckodriver	INFO	Listening on 127.0.0.1:52360
+1602977998414	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/var/folders/6y/xg176hp968n55tg19ltj5tjh0000gn/T/rust_mozprofileTDO1pG"
+*** You are running in headless mode.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1602977999889	Marionette	INFO	Listening on port 52371
+1602977999954	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://brickseek.com/wp-content/themes/brickseek/js/vendor/quagga.min.js?ver=3.2.7, line 0: Successfully compiled asm.js code (total compilation time 1ms)
+1602978003445	Marionette	INFO	Stopped listening on port 52371
+1602978004233	geckodriver	INFO	Listening on 127.0.0.1:52461
+1602978005245	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/var/folders/6y/xg176hp968n55tg19ltj5tjh0000gn/T/rust_mozprofiler5l663"
+*** You are running in headless mode.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1602978006696	Marionette	INFO	Listening on port 52473
+1602978006793	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://brickseek.com/wp-content/themes/brickseek/js/vendor/quagga.min.js?ver=3.2.7, line 0: Successfully compiled asm.js code (total compilation time 1ms)
+JavaScript warning: https://brickseek.com/wp-content/themes/brickseek/js/vendor/quagga.min.js?ver=3.2.7, line 0: Successfully compiled asm.js code (total compilation time 1ms)
+JavaScript warning: https://brickseek.com/wp-content/themes/brickseek/js/vendor/quagga.min.js?ver=3.2.7, line 0: Successfully compiled asm.js code (total compilation time 0ms)
+JavaScript warning: https://pagead2.googlesyndication.com/bg/36t2pzUCsky2p8StOfRDuZ2SQrRQGkwFUvrIpVyovYo.js line 1 > eval line 1057 > eval line 1 > eval, line 1: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://pagead2.googlesyndication.com/bg/36t2pzUCsky2p8StOfRDuZ2SQrRQGkwFUvrIpVyovYo.js line 1 > eval line 1057 > eval line 1 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://pagead2.googlesyndication.com/bg/36t2pzUCsky2p8StOfRDuZ2SQrRQGkwFUvrIpVyovYo.js line 1 > eval line 1047 > eval line 1 > eval, line 1: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://pagead2.googlesyndication.com/bg/36t2pzUCsky2p8StOfRDuZ2SQrRQGkwFUvrIpVyovYo.js line 1 > eval line 1047 > eval line 1 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://brickseek.com/wp-content/themes/brickseek/js/vendor/quagga.min.js?ver=3.2.7, line 0: Successfully compiled asm.js code (total compilation time 0ms)
+JavaScript error: https://tpc.googlesyndication.com/pagead/js/r20201014/r20110914/client/qs_click_protection_fy2019.js, line 14: NS_ERROR_NOT_INITIALIZED: 
+1602978021742	Marionette	INFO	Stopped listening on port 52473
+1602978022818	geckodriver	INFO	Listening on 127.0.0.1:52699
+1602978023825	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/var/folders/6y/xg176hp968n55tg19ltj5tjh0000gn/T/rust_mozprofileMQf8Uo"
+*** You are running in headless mode.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1602978025203	Marionette	INFO	Listening on port 52710
+1602978025269	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://brickseek.com/wp-content/themes/brickseek/js/vendor/quagga.min.js?ver=3.2.7, line 0: Successfully compiled asm.js code (total compilation time 1ms)
+1602978029943	Marionette	INFO	Stopped listening on port 52710
+1602978030878	geckodriver	INFO	Listening on 127.0.0.1:52798
+1602978031885	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/var/folders/6y/xg176hp968n55tg19ltj5tjh0000gn/T/rust_mozprofileNUVVke"
+*** You are running in headless mode.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1602978033263	Marionette	INFO	Listening on port 52807
+1602978033339	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://brickseek.com/wp-content/themes/brickseek/js/vendor/quagga.min.js?ver=3.2.7, line 0: Successfully compiled asm.js code (total compilation time 1ms)
+JavaScript warning: https://brickseek.com/wp-content/themes/brickseek/js/vendor/quagga.min.js?ver=3.2.7, line 0: Successfully compiled asm.js code (total compilation time 0ms)
+JavaScript warning: https://brickseek.com/wp-content/themes/brickseek/js/vendor/quagga.min.js?ver=3.2.7, line 0: Successfully compiled asm.js code (total compilation time 0ms)
+JavaScript error: https://a.pub.network/brickseek-com/pubfig.min.js, line 1: SyntaxError: JSON.parse: unexpected end of data at line 1 column 1 of the JSON data
+JavaScript warning: https://brickseek.com/wp-content/themes/brickseek/js/vendor/quagga.min.js?ver=3.2.7, line 0: Successfully compiled asm.js code (total compilation time 0ms)
+1602978051689	Marionette	INFO	Stopped listening on port 52807
+1602978115597	geckodriver	INFO	Listening on 127.0.0.1:53047
+1602978116605	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/var/folders/6y/xg176hp968n55tg19ltj5tjh0000gn/T/rust_mozprofilewouCWW"
+*** You are running in headless mode.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1602978118370	Marionette	INFO	Listening on port 53058
+1602978118470	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://brickseek.com/wp-content/themes/brickseek/js/vendor/quagga.min.js?ver=3.2.7, line 0: Successfully compiled asm.js code (total compilation time 1ms)
+1602978122094	Marionette	INFO	Stopped listening on port 53058
+1602978122862	geckodriver	INFO	Listening on 127.0.0.1:53155
+1602978124016	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/var/folders/6y/xg176hp968n55tg19ltj5tjh0000gn/T/rust_mozprofileK6U5HN"
+*** You are running in headless mode.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1602978126364	Marionette	INFO	Listening on port 53164
+1602978126390	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://brickseek.com/wp-content/themes/brickseek/js/vendor/quagga.min.js?ver=3.2.7, line 0: Successfully compiled asm.js code (total compilation time 1ms)
+JavaScript warning: https://brickseek.com/wp-content/themes/brickseek/js/vendor/quagga.min.js?ver=3.2.7, line 0: Successfully compiled asm.js code (total compilation time 0ms)
+JavaScript error: https://a.pub.network/brickseek-com/pubfig.min.js, line 1: SyntaxError: JSON.parse: unexpected end of data at line 1 column 1 of the JSON data
+JavaScript warning: https://brickseek.com/wp-content/themes/brickseek/js/vendor/quagga.min.js?ver=3.2.7, line 0: Successfully compiled asm.js code (total compilation time 0ms)
+1602978140910	Marionette	INFO	Stopped listening on port 53164
+1602978142780	geckodriver	INFO	Listening on 127.0.0.1:53282
+1602978143787	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/var/folders/6y/xg176hp968n55tg19ltj5tjh0000gn/T/rust_mozprofileHatlNQ"
+*** You are running in headless mode.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1602978145572	Marionette	INFO	Listening on port 53293
+1602978145646	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://brickseek.com/wp-content/themes/brickseek/js/vendor/quagga.min.js?ver=3.2.7, line 0: Successfully compiled asm.js code (total compilation time 1ms)
+1602978149755	Marionette	INFO	Stopped listening on port 53293
+1602978151005	geckodriver	INFO	Listening on 127.0.0.1:53386
+1602978152014	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/var/folders/6y/xg176hp968n55tg19ltj5tjh0000gn/T/rust_mozprofileTHOS3V"
+*** You are running in headless mode.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1602978153805	Marionette	INFO	Listening on port 53397
+1602978153874	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://brickseek.com/wp-content/themes/brickseek/js/vendor/quagga.min.js?ver=3.2.7, line 0: Successfully compiled asm.js code (total compilation time 1ms)
+JavaScript error: https://a.pub.network/brickseek-com/pubfig.min.js, line 1: SyntaxError: JSON.parse: unexpected end of data at line 1 column 1 of the JSON data
+JavaScript warning: https://brickseek.com/wp-content/themes/brickseek/js/vendor/quagga.min.js?ver=3.2.7, line 0: Successfully compiled asm.js code (total compilation time 0ms)
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+1602978189583	geckodriver	INFO	Listening on 127.0.0.1:53574
+1602978190592	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/var/folders/6y/xg176hp968n55tg19ltj5tjh0000gn/T/rust_mozprofilege7lGi"
+*** You are running in headless mode.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1602978192299	Marionette	INFO	Listening on port 53585
+1602978192338	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://brickseek.com/wp-content/themes/brickseek/js/vendor/quagga.min.js?ver=3.2.7, line 0: Successfully compiled asm.js code (total compilation time 1ms)
+1602978196446	Marionette	INFO	Stopped listening on port 53585
+1602978197246	geckodriver	INFO	Listening on 127.0.0.1:53671
+1602978198038	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/var/folders/6y/xg176hp968n55tg19ltj5tjh0000gn/T/rust_mozprofilecfNm9g"
+*** You are running in headless mode.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1602978200130	Marionette	INFO	Listening on port 53680
+1602978200200	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://brickseek.com/wp-content/themes/brickseek/js/vendor/quagga.min.js?ver=3.2.7, line 0: Successfully compiled asm.js code (total compilation time 1ms)
+JavaScript warning: https://brickseek.com/wp-content/themes/brickseek/js/vendor/quagga.min.js?ver=3.2.7, line 0: Successfully compiled asm.js code (total compilation time 0ms)
+Exiting due to channel error.
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+1602978223569	geckodriver	INFO	Listening on 127.0.0.1:53822
+1602978224578	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/var/folders/6y/xg176hp968n55tg19ltj5tjh0000gn/T/rust_mozprofileUDwZ5c"
+*** You are running in headless mode.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1602978226222	Marionette	INFO	Listening on port 53833
+1602978226251	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://brickseek.com/wp-content/themes/brickseek/js/vendor/quagga.min.js?ver=3.2.7, line 0: Successfully compiled asm.js code (total compilation time 1ms)
+1602978230498	Marionette	INFO	Stopped listening on port 53833
+1602978231342	geckodriver	INFO	Listening on 127.0.0.1:53921
+1602978232349	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/var/folders/6y/xg176hp968n55tg19ltj5tjh0000gn/T/rust_mozprofilevDxBjo"
+*** You are running in headless mode.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1602978234583	Marionette	INFO	Listening on port 53932
+1602978234620	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://brickseek.com/wp-content/themes/brickseek/js/vendor/quagga.min.js?ver=3.2.7, line 0: Successfully compiled asm.js code (total compilation time 3ms)
+JavaScript error: https://a.pub.network/brickseek-com/pubfig.min.js, line 1: SyntaxError: JSON.parse: unexpected end of data at line 1 column 1 of the JSON data
+JavaScript warning: https://brickseek.com/wp-content/themes/brickseek/js/vendor/quagga.min.js?ver=3.2.7, line 0: Successfully compiled asm.js code (total compilation time 0ms)
+JavaScript warning: https://brickseek.com/wp-content/themes/brickseek/js/vendor/quagga.min.js?ver=3.2.7, line 0: Successfully compiled asm.js code (total compilation time 1ms)
+JavaScript error: https://a.pub.network/brickseek-com/pubfig.min.js, line 1: SyntaxError: JSON.parse: unexpected end of data at line 1 column 1 of the JSON data
+JavaScript warning: https://brickseek.com/wp-content/themes/brickseek/js/vendor/quagga.min.js?ver=3.2.7, line 0: Successfully compiled asm.js code (total compilation time 0ms)
+1602978247598	Marionette	INFO	Stopped listening on port 53932
+1602978248439	geckodriver	INFO	Listening on 127.0.0.1:54013
+1602978249445	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/var/folders/6y/xg176hp968n55tg19ltj5tjh0000gn/T/rust_mozprofileHTZAni"
+*** You are running in headless mode.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1602978251885	Marionette	INFO	Listening on port 54024
+1602978251915	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://brickseek.com/wp-content/themes/brickseek/js/vendor/quagga.min.js?ver=3.2.7, line 0: Successfully compiled asm.js code (total compilation time 1ms)
+1602978255985	Marionette	INFO	Stopped listening on port 54024
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x6B0029,name=PNecko::Msg_RemoveRequestContext) Channel closing: too late to send/recv, messages will be lost
+
+1602978256862	geckodriver	INFO	Listening on 127.0.0.1:54117
+1602978258046	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/var/folders/6y/xg176hp968n55tg19ltj5tjh0000gn/T/rust_mozprofileH7226T"
+*** You are running in headless mode.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1602978260437	Marionette	INFO	Listening on port 54126
+1602978260538	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://brickseek.com/wp-content/themes/brickseek/js/vendor/quagga.min.js?ver=3.2.7, line 0: Successfully compiled asm.js code (total compilation time 1ms)
+JavaScript error: https://a.pub.network/brickseek-com/pubfig.min.js, line 1: SyntaxError: JSON.parse: unexpected end of data at line 1 column 1 of the JSON data
+JavaScript warning: https://brickseek.com/wp-content/themes/brickseek/js/vendor/quagga.min.js?ver=3.2.7, line 0: Successfully compiled asm.js code (total compilation time 1ms)
+JavaScript error: https://a.pub.network/brickseek-com/pubfig.min.js, line 1: SyntaxError: JSON.parse: unexpected end of data at line 1 column 1 of the JSON data
+JavaScript warning: https://brickseek.com/wp-content/themes/brickseek/js/vendor/quagga.min.js?ver=3.2.7, line 0: Successfully compiled asm.js code (total compilation time 1ms)
+JavaScript error: https://a.pub.network/brickseek-com/pubfig.min.js, line 1: SyntaxError: JSON.parse: unexpected end of data at line 1 column 1 of the JSON data
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+1602978528862	geckodriver	INFO	Listening on 127.0.0.1:54263
+1602978529873	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/var/folders/6y/xg176hp968n55tg19ltj5tjh0000gn/T/rust_mozprofileltdMhD"
+*** You are running in headless mode.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1602978532579	Marionette	INFO	Listening on port 54276
+1602978532652	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://brickseek.com/wp-content/themes/brickseek/js/vendor/quagga.min.js?ver=3.2.7, line 0: Successfully compiled asm.js code (total compilation time 2ms)
+1602978536361	Marionette	INFO	Stopped listening on port 54276
+1602978537363	geckodriver	INFO	Listening on 127.0.0.1:54373
+1602978538078	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/var/folders/6y/xg176hp968n55tg19ltj5tjh0000gn/T/rust_mozprofilenE2X0G"
+*** You are running in headless mode.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1602978540697	Marionette	INFO	Listening on port 54382
+1602978540760	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://brickseek.com/wp-content/themes/brickseek/js/vendor/quagga.min.js?ver=3.2.7, line 0: Successfully compiled asm.js code (total compilation time 2ms)
+JavaScript error: https://a.pub.network/brickseek-com/pubfig.min.js, line 1: SyntaxError: JSON.parse: unexpected end of data at line 1 column 1 of the JSON data
+JavaScript warning: https://brickseek.com/wp-content/themes/brickseek/js/vendor/quagga.min.js?ver=3.2.7, line 0: Successfully compiled asm.js code (total compilation time 1ms)
+JavaScript warning: https://brickseek.com/wp-content/themes/brickseek/js/vendor/quagga.min.js?ver=3.2.7, line 0: Successfully compiled asm.js code (total compilation time 1ms)
+JavaScript warning: https://brickseek.com/wp-content/themes/brickseek/js/vendor/quagga.min.js?ver=3.2.7, line 0: Successfully compiled asm.js code (total compilation time 1ms)
+1602978553953	Marionette	INFO	Stopped listening on port 54382
+1602978555031	geckodriver	INFO	Listening on 127.0.0.1:54477
+1602978556026	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/var/folders/6y/xg176hp968n55tg19ltj5tjh0000gn/T/rust_mozprofilepiLegN"
+*** You are running in headless mode.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1602978559005	Marionette	INFO	Listening on port 54488
+1602978559107	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://brickseek.com/wp-content/themes/brickseek/js/vendor/quagga.min.js?ver=3.2.7, line 0: Successfully compiled asm.js code (total compilation time 2ms)
+1602978562888	Marionette	INFO	Stopped listening on port 54488
+1602978563959	geckodriver	INFO	Listening on 127.0.0.1:54584
+1602978564969	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/var/folders/6y/xg176hp968n55tg19ltj5tjh0000gn/T/rust_mozprofile46HSLH"
+*** You are running in headless mode.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1602978567516	Marionette	INFO	Listening on port 54593
+1602978567530	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://brickseek.com/wp-content/themes/brickseek/js/vendor/quagga.min.js?ver=3.2.7, line 0: Successfully compiled asm.js code (total compilation time 2ms)
+JavaScript warning: https://brickseek.com/wp-content/themes/brickseek/js/vendor/quagga.min.js?ver=3.2.7, line 0: Successfully compiled asm.js code (total compilation time 1ms)
+JavaScript warning: https://brickseek.com/wp-content/themes/brickseek/js/vendor/quagga.min.js?ver=3.2.7, line 0: Successfully compiled asm.js code (total compilation time 1ms)
+JavaScript error: https://a.pub.network/brickseek-com/pubfig.min.js, line 1: SyntaxError: JSON.parse: unexpected end of data at line 1 column 1 of the JSON data
+JavaScript warning: https://brickseek.com/wp-content/themes/brickseek/js/vendor/quagga.min.js?ver=3.2.7, line 0: Successfully compiled asm.js code (total compilation time 1ms)
+1602978581411	Marionette	INFO	Stopped listening on port 54593
+1602978582447	geckodriver	INFO	Listening on 127.0.0.1:54675
+1602978583450	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/var/folders/6y/xg176hp968n55tg19ltj5tjh0000gn/T/rust_mozprofilewmfdDv"
+*** You are running in headless mode.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1602978585795	Marionette	INFO	Listening on port 54686
+1602978585813	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://brickseek.com/wp-content/themes/brickseek/js/vendor/quagga.min.js?ver=3.2.7, line 0: Successfully compiled asm.js code (total compilation time 2ms)
+1602978589355	Marionette	INFO	Stopped listening on port 54686
+1602978590345	geckodriver	INFO	Listening on 127.0.0.1:54765
+1602978590928	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/var/folders/6y/xg176hp968n55tg19ltj5tjh0000gn/T/rust_mozprofileSNtcss"
+*** You are running in headless mode.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1602978593366	Marionette	INFO	Listening on port 54774
+1602978593400	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://brickseek.com/wp-content/themes/brickseek/js/vendor/quagga.min.js?ver=3.2.7, line 0: Successfully compiled asm.js code (total compilation time 2ms)
+JavaScript warning: https://brickseek.com/wp-content/themes/brickseek/js/vendor/quagga.min.js?ver=3.2.7, line 0: Successfully compiled asm.js code (total compilation time 1ms)
+1602978602511	Marionette	INFO	Stopped listening on port 54774
+1602978734051	geckodriver	INFO	Listening on 127.0.0.1:54877
+1602978735062	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/var/folders/6y/xg176hp968n55tg19ltj5tjh0000gn/T/rust_mozprofileBnWqEG"
+*** You are running in headless mode.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1602978737181	Marionette	INFO	Listening on port 54888
+1602978737241	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://brickseek.com/wp-content/themes/brickseek/js/vendor/quagga.min.js?ver=3.2.7, line 0: Successfully compiled asm.js code (total compilation time 1ms)
+1602978742705	Marionette	INFO	Stopped listening on port 54888
+1602978743967	geckodriver	INFO	Listening on 127.0.0.1:54977
+1602978744973	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/var/folders/6y/xg176hp968n55tg19ltj5tjh0000gn/T/rust_mozprofile4An7AT"
+*** You are running in headless mode.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1602978747418	Marionette	INFO	Listening on port 54988
+1602978747446	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://brickseek.com/wp-content/themes/brickseek/js/vendor/quagga.min.js?ver=3.2.7, line 0: Successfully compiled asm.js code (total compilation time 2ms)
+JavaScript warning: https://brickseek.com/wp-content/themes/brickseek/js/vendor/quagga.min.js?ver=3.2.7, line 0: Successfully compiled asm.js code (total compilation time 1ms)
+JavaScript warning: https://pagead2.googlesyndication.com/bg/36t2pzUCsky2p8StOfRDuZ2SQrRQGkwFUvrIpVyovYo.js line 1 > eval line 7368 > eval, line 1: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://pagead2.googlesyndication.com/bg/36t2pzUCsky2p8StOfRDuZ2SQrRQGkwFUvrIpVyovYo.js line 1 > eval line 7368 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript error: , line 0: uncaught exception: undefined
+JavaScript warning: https://brickseek.com/wp-content/themes/brickseek/js/vendor/quagga.min.js?ver=3.2.7, line 0: Successfully compiled asm.js code (total compilation time 1ms)
+JavaScript error: https://a.pub.network/brickseek-com/pubfig.min.js, line 1: SyntaxError: JSON.parse: unexpected end of data at line 1 column 1 of the JSON data
+JavaScript warning: https://brickseek.com/wp-content/themes/brickseek/js/vendor/quagga.min.js?ver=3.2.7, line 0: Successfully compiled asm.js code (total compilation time 1ms)
+1602978794499	Marionette	INFO	Stopped listening on port 54988
+1602978795725	geckodriver	INFO	Listening on 127.0.0.1:55290
+1602978796735	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/var/folders/6y/xg176hp968n55tg19ltj5tjh0000gn/T/rust_mozprofileBRS8ZW"
+*** You are running in headless mode.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1602978799069	Marionette	INFO	Listening on port 55301
+1602978799110	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://brickseek.com/wp-content/themes/brickseek/js/vendor/quagga.min.js?ver=3.2.7, line 0: Successfully compiled asm.js code (total compilation time 1ms)
+1602978803868	Marionette	INFO	Stopped listening on port 55301
+1602978804781	geckodriver	INFO	Listening on 127.0.0.1:55434
+1602978804993	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/var/folders/6y/xg176hp968n55tg19ltj5tjh0000gn/T/rust_mozprofileZftcVG"
+*** You are running in headless mode.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1602978807418	Marionette	INFO	Listening on port 55443
+1602978807471	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://brickseek.com/wp-content/themes/brickseek/js/vendor/quagga.min.js?ver=3.2.7, line 0: Successfully compiled asm.js code (total compilation time 1ms)
+JavaScript error: https://a.pub.network/brickseek-com/pubfig.min.js, line 1: SyntaxError: JSON.parse: unexpected end of data at line 1 column 1 of the JSON data
+JavaScript warning: https://brickseek.com/wp-content/themes/brickseek/js/vendor/quagga.min.js?ver=3.2.7, line 0: Successfully compiled asm.js code (total compilation time 1ms)
+JavaScript error: https://a.pub.network/brickseek-com/pubfig.min.js, line 1: SyntaxError: JSON.parse: unexpected end of data at line 1 column 1 of the JSON data
+JavaScript warning: https://brickseek.com/wp-content/themes/brickseek/js/vendor/quagga.min.js?ver=3.2.7, line 0: Successfully compiled asm.js code (total compilation time 1ms)
+JavaScript error: https://a.pub.network/brickseek-com/pubfig.min.js, line 1: SyntaxError: JSON.parse: unexpected end of data at line 1 column 1 of the JSON data
+JavaScript warning: https://brickseek.com/wp-content/themes/brickseek/js/vendor/quagga.min.js?ver=3.2.7, line 0: Successfully compiled asm.js code (total compilation time 1ms)
+1602978821502	Marionette	INFO	Stopped listening on port 55443
+1602978822538	geckodriver	INFO	Listening on 127.0.0.1:55531
+1602978823548	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/var/folders/6y/xg176hp968n55tg19ltj5tjh0000gn/T/rust_mozprofileh1PL1b"
+*** You are running in headless mode.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1602978826178	Marionette	INFO	Listening on port 55542
+1602978826228	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://brickseek.com/wp-content/themes/brickseek/js/vendor/quagga.min.js?ver=3.2.7, line 0: Successfully compiled asm.js code (total compilation time 2ms)
+1602978830435	Marionette	INFO	Stopped listening on port 55542
+1602978831538	geckodriver	INFO	Listening on 127.0.0.1:55638
+1602978831979	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/var/folders/6y/xg176hp968n55tg19ltj5tjh0000gn/T/rust_mozprofileRQJpZi"
+*** You are running in headless mode.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1602978834956	Marionette	INFO	Listening on port 55648
+1602978834989	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://brickseek.com/wp-content/themes/brickseek/js/vendor/quagga.min.js?ver=3.2.7, line 0: Successfully compiled asm.js code (total compilation time 2ms)
+JavaScript error: https://a.pub.network/brickseek-com/pubfig.min.js, line 1: SyntaxError: JSON.parse: unexpected end of data at line 1 column 1 of the JSON data
+JavaScript warning: https://brickseek.com/wp-content/themes/brickseek/js/vendor/quagga.min.js?ver=3.2.7, line 0: Successfully compiled asm.js code (total compilation time 1ms)
+JavaScript error: https://a.pub.network/brickseek-com/pubfig.min.js, line 1: SyntaxError: JSON.parse: unexpected end of data at line 1 column 1 of the JSON data
+JavaScript warning: https://brickseek.com/wp-content/themes/brickseek/js/vendor/quagga.min.js?ver=3.2.7, line 0: Successfully compiled asm.js code (total compilation time 1ms)
+JavaScript error: https://a.pub.network/brickseek-com/pubfig.min.js, line 1: SyntaxError: JSON.parse: unexpected end of data at line 1 column 1 of the JSON data
+JavaScript warning: https://brickseek.com/wp-content/themes/brickseek/js/vendor/quagga.min.js?ver=3.2.7, line 0: Successfully compiled asm.js code (total compilation time 1ms)
+1602978851038	Marionette	INFO	Stopped listening on port 55648
+1602978944094	geckodriver	INFO	Listening on 127.0.0.1:55797
+1602978945101	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/var/folders/6y/xg176hp968n55tg19ltj5tjh0000gn/T/rust_mozprofileoOCOiJ"
+*** You are running in headless mode.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1602978947153	Marionette	INFO	Listening on port 55809
+1602978947163	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://brickseek.com/wp-content/themes/brickseek/js/vendor/quagga.min.js?ver=3.2.7, line 0: Successfully compiled asm.js code (total compilation time 1ms)
+1602978950599	Marionette	INFO	Stopped listening on port 55809
+1602978951497	geckodriver	INFO	Listening on 127.0.0.1:55900
+1602978951912	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/var/folders/6y/xg176hp968n55tg19ltj5tjh0000gn/T/rust_mozprofilenwZXaS"
+*** You are running in headless mode.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1602978954088	Marionette	INFO	Listening on port 55909
+1602978954181	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://brickseek.com/wp-content/themes/brickseek/js/vendor/quagga.min.js?ver=3.2.7, line 0: Successfully compiled asm.js code (total compilation time 1ms)
+JavaScript warning: https://brickseek.com/wp-content/themes/brickseek/js/vendor/quagga.min.js?ver=3.2.7, line 0: Successfully compiled asm.js code (total compilation time 1ms)
+JavaScript error: , line 0: uncaught exception: undefined
+JavaScript warning: https://brickseek.com/wp-content/themes/brickseek/js/vendor/quagga.min.js?ver=3.2.7, line 0: Successfully compiled asm.js code (total compilation time 1ms)
+JavaScript error: https://tpc.googlesyndication.com/pagead/js/r20201014/r20110914/client/qs_click_protection_fy2019.js, line 14: NS_ERROR_NOT_INITIALIZED: 
+JavaScript warning: https://brickseek.com/wp-content/themes/brickseek/js/vendor/quagga.min.js?ver=3.2.7, line 0: Successfully compiled asm.js code (total compilation time 1ms)
+1602978979503	Marionette	INFO	Stopped listening on port 55909
+1602978981169	geckodriver	INFO	Listening on 127.0.0.1:56168
+1602978982176	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/var/folders/6y/xg176hp968n55tg19ltj5tjh0000gn/T/rust_mozprofileeHKUoU"
+*** You are running in headless mode.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1602978984299	Marionette	INFO	Listening on port 56179
+1602978984331	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://brickseek.com/wp-content/themes/brickseek/js/vendor/quagga.min.js?ver=3.2.7, line 0: Successfully compiled asm.js code (total compilation time 1ms)
+1602978992629	Marionette	INFO	Stopped listening on port 56179
+1602978993568	geckodriver	INFO	Listening on 127.0.0.1:56293
+1602978994578	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/var/folders/6y/xg176hp968n55tg19ltj5tjh0000gn/T/rust_mozprofileFOSFr6"
+*** You are running in headless mode.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1602978996787	Marionette	INFO	Listening on port 56304
+1602978996855	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://brickseek.com/wp-content/themes/brickseek/js/vendor/quagga.min.js?ver=3.2.7, line 0: Successfully compiled asm.js code (total compilation time 1ms)
+JavaScript warning: https://brickseek.com/wp-content/themes/brickseek/js/vendor/quagga.min.js?ver=3.2.7, line 0: Successfully compiled asm.js code (total compilation time 1ms)
+JavaScript warning: https://brickseek.com/wp-content/themes/brickseek/js/vendor/quagga.min.js?ver=3.2.7, line 0: Successfully compiled asm.js code (total compilation time 1ms)
+JavaScript warning: https://brickseek.com/wp-content/themes/brickseek/js/vendor/quagga.min.js?ver=3.2.7, line 0: Successfully compiled asm.js code (total compilation time 1ms)
+1602979011348	Marionette	INFO	Stopped listening on port 56304
+1602979012432	geckodriver	INFO	Listening on 127.0.0.1:56505
+1602979013445	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/var/folders/6y/xg176hp968n55tg19ltj5tjh0000gn/T/rust_mozprofileDWwVZU"
+*** You are running in headless mode.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1602979015698	Marionette	INFO	Listening on port 56517
+1602979015708	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://brickseek.com/wp-content/themes/brickseek/js/vendor/quagga.min.js?ver=3.2.7, line 0: Successfully compiled asm.js code (total compilation time 1ms)
+1602979019237	Marionette	INFO	Stopped listening on port 56517
+1602979020231	geckodriver	INFO	Listening on 127.0.0.1:56596
+1602979021032	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/var/folders/6y/xg176hp968n55tg19ltj5tjh0000gn/T/rust_mozprofiledgtJ1b"
+*** You are running in headless mode.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1602979023414	Marionette	INFO	Listening on port 56606
+1602979023488	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://brickseek.com/wp-content/themes/brickseek/js/vendor/quagga.min.js?ver=3.2.7, line 0: Successfully compiled asm.js code (total compilation time 1ms)
+JavaScript error: https://a.pub.network/brickseek-com/pubfig.min.js, line 1: SyntaxError: JSON.parse: unexpected end of data at line 1 column 1 of the JSON data
+JavaScript warning: https://brickseek.com/wp-content/themes/brickseek/js/vendor/quagga.min.js?ver=3.2.7, line 0: Successfully compiled asm.js code (total compilation time 1ms)
+JavaScript error: https://a.pub.network/brickseek-com/pubfig.min.js, line 1: SyntaxError: JSON.parse: unexpected end of data at line 1 column 1 of the JSON data
+JavaScript warning: https://brickseek.com/wp-content/themes/brickseek/js/vendor/quagga.min.js?ver=3.2.7, line 0: Successfully compiled asm.js code (total compilation time 1ms)
+JavaScript error: https://a.pub.network/brickseek-com/pubfig.min.js, line 1: SyntaxError: JSON.parse: unexpected end of data at line 1 column 1 of the JSON data
+JavaScript warning: https://brickseek.com/wp-content/themes/brickseek/js/vendor/quagga.min.js?ver=3.2.7, line 0: Successfully compiled asm.js code (total compilation time 1ms)
+1602979035482	Marionette	INFO	Stopped listening on port 56606
+1602979359018	geckodriver	INFO	Listening on 127.0.0.1:56746
+1602979360031	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/var/folders/6y/xg176hp968n55tg19ltj5tjh0000gn/T/rust_mozprofileb4FTZU"
+*** You are running in headless mode.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1602979362388	Marionette	INFO	Listening on port 56757
+1602979362406	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://brickseek.com/wp-content/themes/brickseek/js/vendor/quagga.min.js?ver=3.2.7, line 0: Successfully compiled asm.js code (total compilation time 1ms)
+1602979366492	Marionette	INFO	Stopped listening on port 56757
+1602979367665	geckodriver	INFO	Listening on 127.0.0.1:56853
+1602979367981	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/var/folders/6y/xg176hp968n55tg19ltj5tjh0000gn/T/rust_mozprofileCsBeQE"
+*** You are running in headless mode.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1602979370538	Marionette	INFO	Listening on port 56862
+1602979370575	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://brickseek.com/wp-content/themes/brickseek/js/vendor/quagga.min.js?ver=3.2.7, line 0: Successfully compiled asm.js code (total compilation time 1ms)
+JavaScript error: https://a.pub.network/brickseek-com/pubfig.min.js, line 1: SyntaxError: JSON.parse: unexpected end of data at line 1 column 1 of the JSON data
+JavaScript warning: https://brickseek.com/wp-content/themes/brickseek/js/vendor/quagga.min.js?ver=3.2.7, line 0: Successfully compiled asm.js code (total compilation time 1ms)
+JavaScript warning: https://pagead2.googlesyndication.com/bg/36t2pzUCsky2p8StOfRDuZ2SQrRQGkwFUvrIpVyovYo.js line 1 > eval line 1993 > eval, line 1: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://pagead2.googlesyndication.com/bg/36t2pzUCsky2p8StOfRDuZ2SQrRQGkwFUvrIpVyovYo.js line 1 > eval line 1993 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://brickseek.com/wp-content/themes/brickseek/js/vendor/quagga.min.js?ver=3.2.7, line 0: Successfully compiled asm.js code (total compilation time 1ms)
+JavaScript warning: https://brickseek.com/wp-content/themes/brickseek/js/vendor/quagga.min.js?ver=3.2.7, line 0: Successfully compiled asm.js code (total compilation time 1ms)
+1602979394198	Marionette	INFO	Stopped listening on port 56862
+1602979396281	geckodriver	INFO	Listening on 127.0.0.1:57093
+1602979397287	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/var/folders/6y/xg176hp968n55tg19ltj5tjh0000gn/T/rust_mozprofileijIFUL"
+*** You are running in headless mode.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1602979399863	Marionette	INFO	Listening on port 57104
+1602979399873	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://brickseek.com/wp-content/themes/brickseek/js/vendor/quagga.min.js?ver=3.2.7, line 0: Successfully compiled asm.js code (total compilation time 2ms)
+1602979403388	Marionette	INFO	Stopped listening on port 57104
+1602979404381	geckodriver	INFO	Listening on 127.0.0.1:57193
+1602979405391	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/var/folders/6y/xg176hp968n55tg19ltj5tjh0000gn/T/rust_mozprofilesnXKe4"
+*** You are running in headless mode.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1602979407977	Marionette	INFO	Listening on port 57204
+1602979408066	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://brickseek.com/wp-content/themes/brickseek/js/vendor/quagga.min.js?ver=3.2.7, line 0: Successfully compiled asm.js code (total compilation time 2ms)
+JavaScript warning: https://brickseek.com/wp-content/themes/brickseek/js/vendor/quagga.min.js?ver=3.2.7, line 0: Successfully compiled asm.js code (total compilation time 1ms)
+JavaScript warning: https://brickseek.com/wp-content/themes/brickseek/js/vendor/quagga.min.js?ver=3.2.7, line 0: Successfully compiled asm.js code (total compilation time 1ms)
+JavaScript warning: https://brickseek.com/wp-content/themes/brickseek/js/vendor/quagga.min.js?ver=3.2.7, line 0: Successfully compiled asm.js code (total compilation time 1ms)
+1602979424514	Marionette	INFO	Stopped listening on port 57204
+1602979425740	geckodriver	INFO	Listening on 127.0.0.1:57376
+1602979426751	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/var/folders/6y/xg176hp968n55tg19ltj5tjh0000gn/T/rust_mozprofileGFUiBg"
+*** You are running in headless mode.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1602979429213	Marionette	INFO	Listening on port 57387
+1602979429244	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://brickseek.com/wp-content/themes/brickseek/js/vendor/quagga.min.js?ver=3.2.7, line 0: Successfully compiled asm.js code (total compilation time 1ms)
+1602979433389	Marionette	INFO	Stopped listening on port 57387
+1602979434435	geckodriver	INFO	Listening on 127.0.0.1:57473
+1602979434933	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/var/folders/6y/xg176hp968n55tg19ltj5tjh0000gn/T/rust_mozprofile9ANlyy"
+*** You are running in headless mode.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1602979437403	Marionette	INFO	Listening on port 57482
+1602979437499	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://brickseek.com/wp-content/themes/brickseek/js/vendor/quagga.min.js?ver=3.2.7, line 0: Successfully compiled asm.js code (total compilation time 2ms)
+JavaScript warning: https://brickseek.com/wp-content/themes/brickseek/js/vendor/quagga.min.js?ver=3.2.7, line 0: Successfully compiled asm.js code (total compilation time 1ms)
+JavaScript warning: https://brickseek.com/wp-content/themes/brickseek/js/vendor/quagga.min.js?ver=3.2.7, line 0: Successfully compiled asm.js code (total compilation time 1ms)
+JavaScript warning: https://brickseek.com/wp-content/themes/brickseek/js/vendor/quagga.min.js?ver=3.2.7, line 0: Successfully compiled asm.js code (total compilation time 1ms)
+JavaScript warning: https://pagead2.googlesyndication.com/bg/36t2pzUCsky2p8StOfRDuZ2SQrRQGkwFUvrIpVyovYo.js line 1 > eval line 1162 > eval, line 1: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://pagead2.googlesyndication.com/bg/36t2pzUCsky2p8StOfRDuZ2SQrRQGkwFUvrIpVyovYo.js line 1 > eval line 1162 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+1602979459228	Marionette	INFO	Stopped listening on port 57482
+[Child 28274, Chrome_ChildThread] WARNING: pipe error: Socket is not connected: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 659
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x39013F,name=PContent::Msg_ScriptError) Channel closing: too late to send/recv, messages will be lost
+
+1602979460260	geckodriver	INFO	Listening on 127.0.0.1:57708
+1602979461268	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/var/folders/6y/xg176hp968n55tg19ltj5tjh0000gn/T/rust_mozprofileMsawg4"
+*** You are running in headless mode.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1602979463723	Marionette	INFO	Listening on port 57719
+1602979463742	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://brickseek.com/wp-content/themes/brickseek/js/vendor/quagga.min.js?ver=3.2.7, line 0: Successfully compiled asm.js code (total compilation time 1ms)
+1602979467830	Marionette	INFO	Stopped listening on port 57719
+1602979468861	geckodriver	INFO	Listening on 127.0.0.1:57813
+1602979470011	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/var/folders/6y/xg176hp968n55tg19ltj5tjh0000gn/T/rust_mozprofileXPRD8J"
+*** You are running in headless mode.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+Exiting due to channel error.

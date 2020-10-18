@@ -2,6 +2,8 @@ import numpy as np
 
 
 def get_cost(store_infos):
+    if len(store_infos) == 1:
+        return store_infos[0]
     cost(store_infos)
     cost_sorted_stores = sorted(store_infos, key=lambda x: x['cost'], reverse=False)
     return cost_sorted_stores[0]
@@ -28,24 +30,27 @@ def cost(store_info):
 
 
 def least_square(store_info, search_term):
+    print(search_term)
     vector = np.array([float(store[search_term]) for store in store_info])
+    print(vector)
     mean = sum(vector) / len(vector)
     range = max(vector) - min(vector)
+    print(range)
     return (vector - mean) / range
 
 
-print(get_cost([
-    {'name': 'Walmart Supercenter',
-     'address': '9218 FL-228, Macclenny, FL 32063, USA',
-     'distance': '100',
-     'availability': '0.4',
-     'prices': '404',
-     'hour_intensity': 2
-     }, {'name': 'Walmart Neighborhood',
-     'address': '9218 FL-228, Macclenny, FL 32063, USA',
-     'distance': '3',
-     'availability': '1.0',
-     'prices': '3',
-     'hour_intensity': -2
-     }]
-))
+# print(get_cost([
+#     {'name': 'Walmart Supercenter',
+#      'address': '9218 FL-228, Macclenny, FL 32063, USA',
+#      'distance': '100',
+#      'availability': '0.4',
+#      'prices': '404',
+#      'hour_intensity': 2
+#      }, {'name': 'Walmart Neighborhood',
+#      'address': '9218 FL-228, Macclenny, FL 32063, USA',
+#      'distance': '3',
+#      'availability': '1.0',
+#      'prices': '3',
+#      'hour_intensity': -2
+#      }]
+# ))
