@@ -2,6 +2,5 @@
 .env
 /venv
 
-app.yaml
 __pycache__
 geckodriver.log

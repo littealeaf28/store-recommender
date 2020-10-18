@@ -17,3 +17,12 @@
 __pycache__/
 # Ignored by the build system
 /setup.cfg
+
+frontend
+react-frontend
+static
+busyness.json
+/.idea
+/venv
+__pycache__
+geckodriver.log

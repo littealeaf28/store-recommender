@@ -1,5 +1,10 @@
 runtime: python38
 
-env_variables:
-  GOOGLE_API_KEY=AIzaSyBLS5HmpphdMz7sK7i8FDil-o64M-bn6es
-  BEST_TIME_API_KEY=pri_02fd9fda8a974c20b3c8f45a8c22ca82
+handlers:
+  - url: /
+    static_files: build/index.html
+    upload: build/index.html
+
+  - url: /(.*)
+    static_files: build/\1
+    upload: build/(.*)
